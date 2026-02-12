@@ -1,4 +1,4 @@
-#login{
+.login{
     width:400px;
     height:550px;
     color:darkmagenta;
@@ -7,12 +7,12 @@
     border: 2px rgb(146, 148, 133) solid;
     padding:50px;
     margin:20px auto;
-    background: rgba(24, 24, 148, 0.288);
+    background: rgba(24, 24, 148, 0.2);
     backdrop-filter: blur(10px);
     box-shadow:0px 4px 20px black;
 }
 
-h1{
+.title{
   font-size:2.5em;
   text-decoration:underline;
   text-decoration-color: rgba(30, 8, 110, 0.603);
@@ -23,7 +23,7 @@ h1{
   text-underline-offset:6px;
 }
 
-input{
+.input{
   padding:10px 5px;
   width:90%;
   border-radius:0px 10px 10px 0px;
@@ -34,24 +34,24 @@ input{
   font-family:'Times New Roman', Times, serif;
 }
 
-input:focus{
+.input:focus{
   outline:none;
 }
 
-h3{
+.h3tags{
   text-align:left;
   color:white;
   margin-left:13px
 }
 
-a{
+#forget{
   float:left;
   color:white;
   font-size:small;
   margin-left:20px;
 }
 
-button{
+#loginBtn{
   padding:10px 5px;
   width:50%;
   border-radius:20px;
@@ -64,14 +64,14 @@ button{
   border:1px solid white;
 }
 
-p{
+#newAccount{
   color:white;
   margin-top:70px;
   text-decoration:underline;
   font-size:small;
 }
 
-p:hover,button:hover{
+#newAccount:hover, #loginBtn:hover{
   cursor:pointer;
 }
 
