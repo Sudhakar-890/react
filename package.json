@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "http://sudhakar-890.github.io/react",
+  "homepage": "http://Sudhakar-890.github.io/react",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
